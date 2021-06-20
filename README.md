@@ -10,3 +10,14 @@ Python Keywords are **Predefined**
 False == (1 > 2) ,True == (2 > 1)
 ```
 
+### None 
+
+- `Empty` Value Constant
+
+```
+def func():
+  x = 2
+
+func() == None 
+True
+```
