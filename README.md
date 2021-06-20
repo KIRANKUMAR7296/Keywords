@@ -14,7 +14,7 @@ False == (1 > 2) ,True == (2 > 1)
 
 - `Empty` Value Constant
 
-```
+```python
 def func():
   x = 2
 
