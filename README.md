@@ -37,8 +37,10 @@ x, y = True, False
 print(x and y)
 print(x or y)
 print(not x )
+```
 
-------------------
+```python
+Output : 
 False
 True
 False
@@ -52,7 +54,10 @@ False
 while(True):
     break 
 print('hello world')
---------------------
+```
+
+```python
+Output : 
 hello world
 ```
 
@@ -131,4 +136,61 @@ Output :
 0
 1
 2
+```
+
+### in 
+
+- Check for **Presence** in Sequence.
+
+```python
+5 in [5,10,15]
+```
+
+```python
+Output :
+True
+```
+
+### is
+
+- Check for **Similary**.
+
+```python
+x = y = 3
+x is y
+```
+
+```python
+Output :
+True
+```
+
+### lambda 
+
+- Create **Anonymous** Function
+
+```python
+x = (lambda x : x + 3)
+x(2)
+```
+
+```python
+Output :
+5
+```
+
+### return 
+
+- **Result** of Function
+
+```Python
+def increase(x):
+    return x + 1
+    
+increase(99)    
+```
+
+```python
+Output :
+100
 ```
