@@ -89,3 +89,46 @@ Company : Tata
 Name    : Safari
 Model   : ZX
 ```
+
+### if, elif, else 
+
+- Conditional Program Execution.
+
+```python
+x = int(input('Enter the Value : '))
+if x > 3: 
+    print('Big')
+elif x == 3: 
+    print('Medium')
+else:
+    print('Small')
+```
+
+```python
+Output : 
+Enter the Value : 1
+Small
+```
+
+### for, while 
+
+- Creating **Loops**
+
+```python
+for i in [0,1,2]:
+    print(i)
+```
+
+```python
+j = 0
+while j < 3:
+    print(j)
+    j = j + 1
+```
+
+```python
+Output :
+0
+1
+2
+```
