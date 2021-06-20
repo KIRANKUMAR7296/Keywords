@@ -44,3 +44,48 @@ True
 False
 ```
 
+### break 
+
+- Premature Loop Ending.
+
+```python
+while(True):
+    break 
+print('hello world')
+--------------------
+hello world
+```
+
+### class, def 
+
+- `class` : Create New **Class**
+- `def` : Define a New **Function** or **Class Method**.
+
+```python
+class Car:
+    def __init__(self, Name, Company, Model, Type):
+        self.Name = Name
+        self.Company = Company
+        self.Model = Model
+        self.Type = Type
+        
+    def Details(self):
+        return f'🚗 Tata Motors\nCompany : {self.Company}\nName    : {self.Name}\nModel   : {self.Model}'
+```
+
+```python
+C = Car(Name = 'Safari', 
+        Company = 'Tata',
+        Model = 'ZX',
+        Type = 'SUV')
+
+print(C.Details())
+```
+
+```python
+Output :
+🚗 Tata Motors
+Company : Tata
+Name    : Safari
+Model   : ZX
+```
